@@ -1,0 +1,6 @@
+{
+  "liveServer.settings.ignoreFiles": [
+    "./imports/**"
+  ],
+  "liveServer.settings.donotShowInfoMsg": false
+}
