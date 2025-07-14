@@ -1,0 +1,24 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+
+  margin-top: 30px;
+}
+.header {
+  margin-bottom: 1.5rem;
+}
+.header h1 {
+  font-size: 2rem;
+}
+.meta {
+  color: #8b919b;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+.meta i {
+  margin-right: 0.4rem;
+}
+
+.content {
+  line-height: 1.6;
+}

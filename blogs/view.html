@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog View</title>
+	<script type="module" src="../scripts/loadhf.js"></script>
+	<link rel="stylesheet" href="../styles/main.css">
+	<link rel="stylesheet" href="../styles/blog-view.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+	<header id="header"></header>
+
+  <main>
+		<div class="container">
+			<div class="header">
+				<h1 id="post-title">Loading...</h1>
+				<div class="meta">
+					<a href="./index.html"><i class="fas fa-arrow-left"></i> <span id="go-back"></span> Back</a>
+					&nbsp;·&nbsp;
+					<i class="fas fa-user"></i> @hoppxi
+					&nbsp;·&nbsp;
+					<i class="fas fa-calendar"></i> <span id="post-date"></span>
+					&nbsp;·&nbsp;
+					<i class="fas fa-eye"></i> <span id="post-views"></span> views
+				</div>
+			</div>
+			<div class="content" id="post-content">
+				<!-- Blog content will be injected here -->
+			</div>
+		</div>
+	</main>
+
+	<footer id="footer"></footer>
+
+  <script type="module" src="../scripts/view.js"></script>
+</body>
+</html>
