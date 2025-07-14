@@ -1,4 +1,5 @@
 import blogData from "../data.js";
+import loadHTML from "./main.js";
 
 function getPostId() {
   const params = new URLSearchParams(window.location.search);
@@ -6,6 +7,7 @@ function getPostId() {
 }
 
 function renderPost() {
+  
   const id = getPostId();
   const post = blogData.find(p => p.id === id);
 
@@ -17,7 +19,7 @@ function renderPost() {
 
   document.getElementById("post-title").textContent = post.title;
   document.getElementById("post-date").textContent = post.date;
-  document.getElementById("post-content").innerHTML = post.content;
+  loadHTML(post.content, "post-content");
 
   document.title = `${post.title} | @hoppxi`;
 

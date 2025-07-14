@@ -36,5 +36,5 @@ function loadHeaderAndFooter() {
   loadHTML(basePath + 'imports/header.html', 'header');
   loadHTML(basePath + 'imports/footer.html', 'footer');
 }
-
-export { loadHeaderAndFooter, loadHTML };
+export default loadHTML;
+export { loadHeaderAndFooter };
