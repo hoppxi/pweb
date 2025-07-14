@@ -19,6 +19,8 @@ function renderPost() {
   document.getElementById("post-date").textContent = post.date;
   document.getElementById("post-content").innerHTML = post.content;
 
+  document.title = `${post.title} | @hoppxi`;
+
 }
 
 document.addEventListener("DOMContentLoaded", renderPost);
